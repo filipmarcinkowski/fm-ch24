@@ -1,9 +1,11 @@
 :root {
-  --clt-primary: hsl(193, 38%, 86%);
+  --clr-primary: hsl(193, 38%, 86%);
   --clr-secondary: hsl(150, 100%, 66%);
+  --clr-secondary-s: hsla(150, 100%, 66%, 0.39);
   --clr-grey-200: hsl(217, 19%, 38%);
   --clr-grey-500: hsl(217, 19%, 24%);
   --clr-grey-900: hsl(218, 23%, 16%);
+  --clr-grey-900: #1f2632;
 }
 
 * {
@@ -22,4 +24,75 @@ body {
   font-weight: 800;
   font-style: normal;
   font-size: 2.8rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* max-width: 144rem; */
+  background-color: var(--clr-grey-900);
+}
+
+.container {
+  max-width: 54rem;
+  background-color: var(--clr-grey-500);
+  border-radius: 2rem;
+
+  padding: 4rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: relative;
+
+  /* margin: 15rem; */
+}
+
+h1 {
+  color: var(--clr-secondary);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  color: var(--clr-primary);
+  margin-bottom: 3rem;
+}
+
+.divider {
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  border: none;
+  background-color var(--clr-secondary);
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+
+  position: absolute;
+  top: calc(100%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+  box-shadow: 0rem 0rem 1rem 1rem var(--clr-secondary-s);
+}
+
+.btn-icon {
+  background-color: var(--clr-secondary);
+}
+
+.btn-icon path {
+  background-color: var(--clr-grey-900);
 }
