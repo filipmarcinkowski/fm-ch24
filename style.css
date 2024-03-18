@@ -1,0 +1,25 @@
+:root {
+  --clt-primary: hsl(193, 38%, 86%);
+  --clr-secondary: hsl(150, 100%, 66%);
+  --clr-grey-200: hsl(217, 19%, 38%);
+  --clr-grey-500: hsl(217, 19%, 24%);
+  --clr-grey-900: hsl(218, 23%, 16%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.8rem;
+}
