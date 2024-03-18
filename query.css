@@ -1,4 +1,5 @@
 @media (max-width: 37.5em) {
   .divider {
+    background-image: url(./images/pattern-divider-mobile.svg);
   }
 }
