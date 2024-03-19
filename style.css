@@ -21,14 +21,14 @@ html {
 body {
   font-family: 'Manrope', sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
   font-size: 2.8rem;
   display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* max-width: 144rem; */
+
   background-color: var(--clr-grey-900);
 }
 
@@ -37,7 +37,7 @@ body {
   background-color: var(--clr-grey-500);
   border-radius: 2rem;
 
-  padding: 4rem;
+  padding: 4.9rem 4rem;
   text-align: center;
 
   display: flex;
@@ -50,15 +50,18 @@ body {
 
 h1 {
   color: var(--clr-secondary);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
 p {
   color: var(--clr-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 3.26rem;
+  line-height: 1.35;
+  font-weight: 700;
 }
 
 .divider {
@@ -70,7 +73,7 @@ p {
 
   object-fit: contain;
   justify-self: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.6rem;
 }
 
 .btn {
